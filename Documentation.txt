@@ -1,0 +1,40 @@
+//Scale builder
+//ignore existing project (it doesnt work)
+
+Requirements:
+---------------------------------
+- Allow user to select a scale and generate the scale
+	- the scale will be different depening on the type (minor, major, phrygian, etc),
+	- the scale generator will correctly display accidentals
+- other options:
+	- display the diatonic triads in that key 
+
+-Possible future features:
+  - display extended triads
+
+
+Possible Classes:
+-----------------------------------
+Note class:
+- holds note data ( value and accidental)
+	- could also be a struct (guess were doing c++...lol)
+	- need method to calculate intervals (space betweeen notes)
+		- could be done using by overloading the - operator
+			or just making a function to calculate interval.
+
+Scale class:
+- generetes scale and holds scale data
+- needs some sort of array to hold all the seven notes in the scale
+
+Scale pattern generator:
+- generates the scale pattern
+	- Major is W W H W W W H and the other modes are just shifted over
+
+Triad generator class:
+- just generates the traids (could also be a function in scale?) 
+
+Menu class:
+- make a nice-ish cli...
+
+(we could also implent an abstract class and sub classes for each scale or 
+use the decorator pattern, my original idea seems the easiest to implement);

@@ -66,19 +66,3 @@ void Scale::scaleBuilder(std::string type){
     }
 }
 
-
-/*welcome message
- *asks for pin number 
- * afer pin number confirmed display 4 options (in new screen)
- * - withdraw, deposit, get balance, exit
- * - get balance (show balance in a new screen)
- * 
- * withdraw (show couple options 20, 40, 60, 100, 200 and cancel transaction)
- * --(in the future can select what kind of bills)
- * --First the screen displays menu
- * --make sure to have cancel transaction
- * --if the withdraw money chosen is greater than user balance, tell user to choose smaller amount
- * 
- * Deposit Funds (in new screen show how much)
- * --screen that prompts user to add deposit amount or cancel transaction
- */
