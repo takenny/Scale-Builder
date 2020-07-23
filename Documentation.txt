@@ -38,3 +38,13 @@ Menu class:
 
 (we could also implent an abstract class and sub classes for each scale or 
 use the decorator pattern, my original idea seems the easiest to implement);
+
+C MAJOR ->  C D E F G A B 
+
+Key G => G A B C D E F# G 
+Key G# => G# A# B# C# D# E# F## G#
+
+
+interval between each note is different 
+C and D is a whole step
+B and C is half step 

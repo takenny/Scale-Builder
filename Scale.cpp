@@ -16,6 +16,7 @@ Scale::Scale(char root)
     scaleBuilder(type);
     
 }
+
 Scale::Scale(Note root, std::string type){
     scale[0] = root;
     scaleBuilder(type);
