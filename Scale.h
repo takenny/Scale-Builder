@@ -7,12 +7,7 @@ class Scale
 {
 private:
     std::string type;
-    
-    struct Note{
-        char value;
-        char accidental;
-    };
-    
+    Note root;
     Note scale[8];
 
     

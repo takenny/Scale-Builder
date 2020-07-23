@@ -93,6 +93,7 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
+    <File Name="Documentation.txt"/>
     <File Name="ScalePatternGenerator.cpp"/>
     <File Name="ScalePatternGenerator.h"/>
     <File Name="Note.cpp"/>

@@ -3,9 +3,19 @@
 
 class Note
 {
+private:
+    char value, accidental;
+    char[7] ionian;
+    
 public:
-    Note();
+    Note(char value);
+    Note(char value, char accidental);
     ~Note();
+    
+    void setAccidental();
+    void setValue();
+    
+    int calculateInterval;
 
 };
 
