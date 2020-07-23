@@ -3,7 +3,7 @@
 
 int main(){
     
-   /* Scale aScale({'A', ' '}, "IONIAN");
+    Scale aScale({'A', ' '}, "IONIAN");
     aScale.printScale();
     std::cout << std::endl;
     
@@ -29,35 +29,34 @@ int main(){
     
     Scale gScale('G');
     gScale.printScale();
+    std::cout << std::endl;
+/*    
+    Scale cIonian({'E', 'b'}, "IONIAN");
+    cIonian.printScale();
     std::cout << std::endl;*/
     
-    Scale cIonian({'C', ' '}, "IONIAN");
-    cIonian.printScale();
-    std::cout << std::endl;
+//    Scale dDorian({'D', '#'}, "DORIAN");
+//    dDorian.printScale();
+//    std::cout << std::endl;
     
-    Scale dDorian({'D', ' '}, "DORIAN");
-    dDorian.printScale();
-    std::cout << std::endl;
-    
-    Scale ePhrigian({'E', ' '}, "PHRYGIAN");
-    ePhrigian.printScale();
-    std::cout << std::endl;
-    
-    Scale fLydian({'F', ' '}, "LYDIAN");
-    fLydian.printScale();
-    std::cout << std::endl;
-    
-    Scale gMixolydian({'G', ' '}, "MIXOLYDIAN");
-    gMixolydian.printScale();
-    std::cout << std::endl;
-    
-    Scale aAolian({'A', ' '}, "AOLIAN");
-    aAolian.printScale();
-    std::cout << std::endl;
-    
-    Scale bLocrian({'B', ' '}, "LOCRIAN");
-    bLocrian.printScale();
-    std::cout << std::endl;
+//    Scale ePhrigian({'E', ' '}, "PHRYGIAN");
+//    ePhrigian.printScale();
+//    std::cout << std::endl;
+//    
+//    Scale fLydian({'F', ' '}, "LYDIAN");
+//    fLydian.printScale();
+//    std::cout << std::endl;
+//    
+//    Scale gMixolydian({'G', ' '}, "MIXOLYDIAN");
+//    gMixolydian.printScale();
+//    std::cout << std::endl;
+//    
+//    Scale aAolian({'A', '#'}, "AOLIAN");
+//    aAolian.printScale();
+//    std::cout << std::endl;
+//    Scale bLocrian({'B', ' '}, "LOCRIAN");
+//    bLocrian.printScale();
+//    std::cout << std::endl;
     
     return 0;
 }
